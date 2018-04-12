@@ -25,3 +25,8 @@ Windows:
 Installing virtualenv on Windows is a bit complicated than Linux.
 Refer to this link for installing virtualenv on your Windows machine: 
 	http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/
+
+Once in the virtual environment (indicated by virtual environment name shown towards the left in the terminal in parentheses), run the following command:
+	pip install requirements.txt
+
+This is to install all the required packages in the virtual environment for running the app.
