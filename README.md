@@ -24,11 +24,9 @@ Run `pip install -r requirements.txt` (Python 2), or `pip3 install -r requiremen
 
 **Optional**:
 
-Then train the data using the following command:
+Then train the data using the following command: `python train_data.py`
 
-    `python train_data.py`
-
-This step is optional because we have already trained the dataset and stored it as a **pickle** file
+This step is optional because we have already trained the dataset and stored it as a **pickle** file.
 
 ## Windows
 
@@ -39,6 +37,8 @@ Once in the virtual environment (indicated by virtual environment name shown tow
 `pip install -r requirements.txt`
 
 This is to install all the required packages in the virtual environment for running the app.
+
+## For Linux & Windows both
 
 To start the Flask server:
 
